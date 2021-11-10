@@ -1,0 +1,26 @@
+
+.meal__box{
+    display: flex;
+}
+
+.meal_item{
+    margin : 20px ;
+    background-color: tomato;
+    padding : 30px ;
+    cursor: pointer;
+    border-radius: 3px ;
+}
+
+.add__button{
+    border-style: none ;
+    background-color: orange;
+    color: #333 ;
+    padding : 5px 30px ;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.add__button:hover{
+    background-color: dodgerblue;
+    color : #fff ;
+}
